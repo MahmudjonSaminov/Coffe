@@ -350,6 +350,14 @@ p{
 
 
 .subscirpe{
+    .sectionCofe{
+        position: absolute;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        bottom: -150px;
+    }
     .container{
         padding: 50px;
     }
@@ -357,6 +365,8 @@ p{
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
+    position: relative;
+
     h1{
         color: white;
         font-size: 45px;
@@ -379,6 +389,7 @@ p{
 }
 
 footer{
+    padding: 40px 0px;
     background-image:  url(../img/footer.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -499,11 +510,13 @@ footer{
     }
 
     .subscirpe{
+        position: relative;
     margin-bottom: 0px !important;
     background-image:  url(https://mrwallpaper.com/images/hd/coffee-cup-dark-aesthetic-l5c8uth00nnwfu0n.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
+    
     }
     input{
         padding: 15px 20px !important;
@@ -511,6 +524,7 @@ footer{
 
 
     footer{
+        position: relative;
         margin-top: 0px !important;
         background-image:  url(https://images.pexels.com/photos/2396220/pexels-photo-2396220.jpeg?cs=srgb&dl=pexels-tyler-nix-1259808-2396220.jpg&fm=jpg);
         background-position: center;
@@ -530,4 +544,8 @@ footer{
     .dis1{
         display: none;
     }
+   
+   .sectionCofe{
+    display: none !important;
+   }
 }
