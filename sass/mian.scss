@@ -36,7 +36,7 @@ header{
     background-image: url(../img/bac_img.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100%;  
     nav{
         padding: 30px 0px;
         .container{
@@ -396,5 +396,138 @@ footer{
 
     img, h3, p{
         margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 456px){
+    .container{
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    a, .buts{
+        display: none;
+    }
+    header{
+        background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAxL3Jhd3BpeGVsb2ZmaWNlMjFfdHdvX2NvZmZlZV9jdXBzX3BsYWNlZF9jbG9zZV90b2dldGhlcl93aXRoX2xhdF9hMmU2YTU5Ni1iNmJjLTQ5OTMtODRmYy0yODg3NjlkOWVhOGJfMS5qcGc.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%; 
+    }
+
+    .barses{
+        display: block;
+        color: white;
+        font-size: 25px;
+    }
+
+    header .hero .hero_info h1 {
+        font-size: 80px;
+        font-family: "Clicker Script", serif;
+        font-weight: 200;
+    }
+
+    .hero_info{
+        margin-top: 20px;
+        width: 100% !important;
+        p{
+            color: white;
+        }
+    }
+    nav{
+        padding: 30px 0px;
+    }
+
+    .blast_rigt, .blast, .bars, .im_3{
+        display: none;
+    }
+
+    .sec_one .container{
+        flex-direction: column;
+    }
+
+    .wider{
+        width: 100%;
+        text-align: left;
+    }
+
+
+    .sec_tw_text{
+        width: 100%;
+        h1, p{
+            font-size: 20px;
+        }
+    }
+    .block{
+        flex-wrap: wrap;
+    }
+
+    .cards{
+        flex-wrap: wrap;
+    }
+
+    .cup img{
+        width: 100%;
+    }
+
+    .sec_late_info{
+        width: 100%;
+        padding: 0px;
+        .geres{
+            font-size: 20px !important;
+        }
+    }
+
+    .bean img{
+        display: none;
+    }
+
+    .sec_coff{
+        background-image: url(https://i.pinimg.com/736x/f0/b0/a8/f0b0a8193edaa2a0845cabf3ce353e06.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        position: relative;
+        padding: 30px 0px;
+    }
+
+    .let{
+        width: 100% !important;
+    }
+
+    .right, .left{
+        display: none !important;
+    }
+
+    .subscirpe{
+    margin-bottom: 0px !important;
+    background-image:  url(https://mrwallpaper.com/images/hd/coffee-cup-dark-aesthetic-l5c8uth00nnwfu0n.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    }
+    input{
+        padding: 15px 20px !important;
+    }
+
+
+    footer{
+        margin-top: 0px !important;
+        background-image:  url(https://images.pexels.com/photos/2396220/pexels-photo-2396220.jpeg?cs=srgb&dl=pexels-tyler-nix-1259808-2396220.jpg&fm=jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .fot_dis{
+        flex-wrap: wrap;
+        text-align: center;
+        color: white;
+        p{
+            color: white;
+        }
+    }
+
+    .dis1{
+        display: none;
     }
 }
